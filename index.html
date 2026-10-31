@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stathe</title>
+<meta name="description" content="Stathe, pronounced “state”.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%2314b8a6'/%3E%3C/svg%3E">
+<style>
+  :root { --bg: #0f1e33; --line: #1a3050; --text: #f1f5f9; --muted: #94a3b8; --accent: #14b8a6; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    display: grid; place-items: center; padding: 16px;
+    background: var(--bg); color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { text-align: center; }
+  h1 { margin: 0; font-size: clamp(48px, 12vw, 88px); font-weight: 700; letter-spacing: -0.02em; }
+  h1 span { display: inline-block; width: 0.18em; height: 0.18em; margin-left: 0.06em; background: var(--accent); border-radius: 2px; }
+  p { margin: 12px 0 40px; color: var(--muted); }
+  nav { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  a {
+    color: var(--text); text-decoration: none; padding: 10px 20px;
+    border: 1px solid var(--line); border-radius: 6px;
+  }
+  a:hover, a:focus-visible { border-color: var(--accent); outline: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stathe<span aria-hidden="true"></span></h1>
+  <p>Pronounced “state”.</p>
+  <nav>
+    <a href="https://github.com/stathe-io/stathe">GitHub</a>
+    <a href="https://www.linkedin.com/in/jarnokristelijn">LinkedIn</a>
+  </nav>
+</main>
+</body>
+</html>
